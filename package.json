@@ -1,0 +1,20 @@
+{
+  "name": "guitarlearningbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+	"start": "node bot.js"
+  
+  },
+  "engines": {
+	"node": "12.16.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "telegraf": "^3.32.0"
+  }
+}
