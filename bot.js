@@ -1,6 +1,6 @@
 const Telegraf = require('telegraf');
 
-const bot = new Telegraf('1148888919:AAG4IwhzIXVzfFwtXd_7QBylvg84RGj80v8');
+const bot = new Telegraf('');
 
 require('https').createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
     res.end('')
